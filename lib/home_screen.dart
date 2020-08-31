@@ -211,7 +211,7 @@ Widget _mainContent(BuildContext context) {
         itemCount: plantImages.length,
         itemBuilder: (BuildContext context, int index) {
           return Padding(
-            padding: const EdgeInsets.only(left: 20, top: 20),
+            padding: const EdgeInsets.only(left: 20,right: 20, top: 20),
             child: Container(
               width: 250,
               decoration: BoxDecoration(
